@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Http;
+use Illuminate\Support\Facades\Http;
 class ActorsController extends Controller
 {
   public function index()
