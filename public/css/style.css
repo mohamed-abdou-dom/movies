@@ -1,0 +1,63 @@
+body{
+  background-color: #1c212e;
+}
+hr{
+  background-color: #343c4f;
+  width: 100%
+}
+img{
+  border-radius: 0 !important;
+}
+/* navbar */
+.navbar{
+  border-bottom: 1px solid #343c4f;
+  background-color: #1C212E !important;
+  color: white !important;
+  padding: 15px 0;
+}
+.navbar .nav-link{
+  color: white !important;
+}
+.navbar .search-nav{
+  border-radius: 20px;
+  background-color: #323849;
+  border: none;
+  height: 30px;
+  padding: 0.1rem .75rem;
+  color: white;
+}
+.navbar .search-nav:active{
+  box-shadow: none !important;
+}
+.navbar .search-nav:focus{
+  box-shadow: none !important;
+}
+/* end navbar */
+/* movie-home */
+.movie-home .popular{
+  text-transform: uppercase;
+  color: #BB8B62;
+  font-size: 20px;
+}
+.movie-home .card{
+  border-radius: 0;
+  border: 0;
+}
+.movie-home .card-body{
+  background-color: #1C212E;
+  color: white;
+  text-align: left;
+  padding: 10px 0;
+}
+.movie-home .card-body .details{
+  line-height: 1.4;
+}
+.movie-home .card-body .details .fa-star{
+  color: orange;
+}
+.card-body .details a{
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 0;
+}
