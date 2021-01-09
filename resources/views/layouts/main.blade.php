@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Hello, world!</title>
+    <title>MovieApp</title>
     @livewireStyles
   </head>
   <body>
@@ -27,15 +27,12 @@
               <a class="nav-link" href="/">Movies</a>
             </li>
             <li class="nav-item ml-2">
-              <a class="nav-link" href="#">Tv Shows</a>
-            </li>
-            <li class="nav-item ml-2">
               <a class="nav-link" href="/actors">Actors</a>
             </li>
           </ul>
           <form class="form-inline" action="/movies/search" method="post">
             {{csrf_field()}}
-            <input name="search" style="display: block" class="search-nav form-control mr-sm-2" type="text" placeholder="Search">
+            <input name="search" style="display: block" class="search-nav form-control mr-sm-2" type="text" placeholder="Search Movies">
           </form>
         </div>
       </div>
